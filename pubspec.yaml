@@ -1,0 +1,54 @@
+name: fun_facts_bloc
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ######## Local packages ###########
+  presentation:
+    path: presentation
+
+  data:
+    path: data
+
+  domain:
+    path: domain
+  ###################################
+
+  flutter_localizations:
+    sdk: flutter
+  flutter_screenutil: ^5.0.1
+  flutter_svg: ^1.0.0
+  freezed_annotation: ^1.1.0
+  get_it: ^7.2.0
+  injectable: ^1.5.0
+  intl: ^0.17.0
+  mockito: ^5.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lokalise:
+    git:
+      url: https://github.com/jorgesarabia/flutter_lokalise
+      ref: master
+  flutter_lints: ^1.0.0
+  flutter_bloc: ^8.0.0
+  injectable_generator: ^1.5.0
+  build_runner: ^2.1.5
+
+flutter_lokalise:
+  project_id: 63376834616d977f371183.61042009
+  api_token: 5aa25820886e0c2b128a5f4d8c5180938d8c7e9d
+
+flutter:
+
+  uses-material-design: true
